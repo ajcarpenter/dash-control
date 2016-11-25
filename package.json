@@ -1,0 +1,28 @@
+{
+  "name": "dash-control",
+  "version": "0.0.1",
+  "description": "An extensible task runner for Amazon Dash button",
+  "main": "index.js",
+  "scripts": {
+    "find-button": "NODE_ENV=test babel-node find_button.js",
+    "start": "babel-node index.js",
+    "register-hue": "babel-node register_hue.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "bluebird": "^3.4.6",
+    "castv2-client": "^1.1.2",
+    "config": "^1.24.0",
+    "debug": "^2.3.3",
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.17.2",
+    "mdns": "^2.3.3",
+    "minimist": "^1.2.0",
+    "node-dash-button": "^0.6.1",
+    "node-hue-api": "^2.3.0"
+  }
+}

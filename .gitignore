@@ -1,0 +1,6 @@
+devices.json
+pi-sync.sh
+npm-debug.log
+node_modules
+config/**
+!config/*.example.*
